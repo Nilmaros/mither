@@ -1,0 +1,24 @@
+﻿@page "/"
+@using Markdig
+
+<h1>Mitchell Hern&aacute;ndez Broadhurst</h1>
+
+My personal website. Use it wisely.
+
+<h1>@result</h1>
+
+
+
+<Dialog Title="Blazor">
+    Do you want to <i>learn more</i> about Blazor?
+</Dialog>
+
+@code {
+    string result = Markdown.ToHtml("This is a text with some *emphasis*");
+    private string RenderHtmlContent(string value) => Markdig.Markdown.ToHtml(
+    markdown: value,
+    pipeline: new MarkdownPipelineBuilder().UseAdvancedExtensions().Build()
+    );
+}
+
+<SurveyPrompt Title="How is Blazor working for you?" />
