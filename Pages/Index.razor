@@ -1,12 +1,11 @@
 ﻿@page "/"
-@using Markdig
+@inherits Shared.MarkdownEditorBase
 
-<h1>Mitchell Hern&aacute;ndez Broadhurst</h1>
+<img alt="avatar" width="100" height="100" src="https://mither.blob.core.windows.net/img/avatar.png?sp=r&st=2020-08-29T15:23:33Z&se=2021-08-29T23:23:33Z&spr=https&sv=2019-12-12&sr=b&sig=YYkMLXK77B7c9KxARJ8XG1R4zZkXdqDMq9IiYd482qw%3D" />
 
-My personal website. Use it wisely.
-
-<h1>@result</h1>
-
+<div>
+    @((MarkupString) Preview)
+</div>
 
 
 <Dialog Title="Blazor">
@@ -14,11 +13,10 @@ My personal website. Use it wisely.
 </Dialog>
 
 @code {
-    string result = Markdown.ToHtml("This is a text with some *emphasis*");
-    private string RenderHtmlContent(string value) => Markdig.Markdown.ToHtml(
-    markdown: value,
-    pipeline: new MarkdownPipelineBuilder().UseAdvancedExtensions().Build()
-    );
+    protected override void OnInitialized()
+    {
+        Body = System.IO.File.ReadAllText(@"CV.md");
+    }
 }
 
 <SurveyPrompt Title="How is Blazor working for you?" />
