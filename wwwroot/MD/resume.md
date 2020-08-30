@@ -2,7 +2,7 @@
 ## Back-End Software Developer & code enthusiast
 
 ------
-## About me
+<!-- ## About me
 
 Software Developer (Stack: C#, T-SQL and Azure Cloud Solutions). I spend most of my time coding, reviewing code and discussing code. My recent work projects include:
 
@@ -13,47 +13,39 @@ Personal projects include:
 
 * Building with a [Raspberry Pi 4B](https://www.raspberrypi.org/) and a [RAK2245 Rpi HAT](https://store.rakwireless.com/products/rak2245-pi-hat) a LoRaWAN hotspot for IoT solutions.
 * [The Weasley Clock](https://harrypotter.fandom.com/wiki/Weasley_Clock) as a home device.
-* Studying towards Azure Microsoft Certifications.
+* Studying towards Azure Microsoft Certifications. -->
 
 ### Technical
 
-1. Java
-1. Android / iOS
-1. Javascript / NodeJS
+1. C#
+1. MS SQL (T-SQL)
+1. Blazor
 1. Python
-1. Git / SVN
-1. Cordova
-<!-- 1. Spring / Wicket -->
-1. Ruby
-<!-- 1. Weblogic / Websphere -->
-<!-- 1. Tomcat / Jetty -->
-<!-- 1. Oracle DB / MSSQL -->
-1. PostgreSQL / MySQL
-1. Backbone.js
+1. Git / TFS
+1. VBA
 
 ------
 
 ### Experience
 
-**NTTData** *Senior Consultant* __2012 to present__
-	Designed Backbone.js based application to replace and improve upon existing legacy system.
-	Introduced BDD style testing using Jasmine/Karma into existing application code.
+**Wills Towers Watson** *Software Developer - Data Team* __2019 to present__
+	Designing pure T-SQL solution for hierachy tables to solve complex calculation with near zero latency.
+	Improvement of their legacy ETL applications for a VLBD (> 1TB). .NET Framework 4.7.2 console applications.
+	Collaborating in a new greenfield project that requires several third parties API integration, PowerBI applications and
+	IaaS/PaaS solutions.
+	Migration of existing tools to Azure Cloud VMs.
 	Developed modern solutions and features for large Enterprise Java systems.
 	Collaborated with and guided global team members transitioning to client side architecture.
-	**Technical Environment** Backbone.js, Jasmine.js, Coffeescript, SpringSource, Tomcat.
+	**Technical Environment** .NET, T-SQL, Azure Cloud
 
-**Sumtotal Systems** *Senior Java Developer* __2008 to 2012__
-	Designed and implemented features and improvements for multiple enterprise sized applications.
-	Automated manual report generation for legacy ticketing system to provide reliable team analytics.
-	Provided quality solutions to mission critical production issues in a timely manner.
-	Proposed, designed and implemented a realtime tracking, deployment and notification system for test environments.
-	**Technical Environment** Weblogic/Websphere, SpringSource/Wicket, MSSQL/Oracle, JUnit.
+**Menzies Aviation** *Junior Software Developer* __2018 to 2019__
+	Refactored, analysed and improved existing .NET console application. .NET Core 2.1
+	Maintained application as a service using TopShelf in a Windows Server.
+	Automated manual report generation for legacy resources system to provide reliable team analytics.
+	**Technical Environment** .NET, T-SQL.
 
-**We Can Pretend** *Technical Consultant* __2011__
-	Architected and implemented a interactive media streaming service that enabled realtime, massively multiplayer, jeopardy-style interactions.
-	Built host interface to inject synchronized prompts, overlays and widgets into live video stream.
-	Created detailed documentation regarding technical requirements, project time lines and staffing guidelines for realizing total product offering.
-	**Technical Environment** Wowza Media Server, Adobe Flex, Javascript.
+**Menzies Aviation** *Workforce Support Manager* __2017 to 2018__
+	Project Manager / Business Analyst role. Managed a team of 3 members to 
 
 <!--
 **Redline Distribution** *Web Application Developer* __2008__
