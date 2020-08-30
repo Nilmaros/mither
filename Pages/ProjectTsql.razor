@@ -1,0 +1,13 @@
+﻿@page "/ProjectTsql"
+@inherits Shared.MarkdownEditorBase
+
+<div>
+    @((MarkupString) Preview)
+</div>
+
+@code {
+    protected override void OnInitialized()
+    {
+        Body = System.IO.File.ReadAllText(@"wwwroot/MD/ProjectTsql.md");
+    }
+}

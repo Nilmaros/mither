@@ -2,29 +2,24 @@
 ## Back-End Software Developer & code enthusiast
 
 ------
-<!-- ## About me
-
-Software Developer (Stack: C#, T-SQL and Azure Cloud Solutions). I spend most of my time coding, reviewing code and discussing code. My recent work projects include:
-
-* A pure T-SQL solution that involves complex calculations applying object-oriented principles to tackle the issues found with declarative languages. The advantage is the *almost* zero latency as the calculations are done directly on the data source.
-* An Azure Function that creates a markdown file inside a blob storage after a new Azure DevOps project release.
-  
-Personal projects include:
-
-* Building with a [Raspberry Pi 4B](https://www.raspberrypi.org/) and a [RAK2245 Rpi HAT](https://store.rakwireless.com/products/rak2245-pi-hat) a LoRaWAN hotspot for IoT solutions.
-* [The Weasley Clock](https://harrypotter.fandom.com/wiki/Weasley_Clock) as a home device.
-* Studying towards Azure Microsoft Certifications. -->
 
 ### Technical
 
 1. C#
 1. MS SQL (T-SQL)
-1. Blazor
-1. Python
-1. Git / TFS
-1. VBA
+2. Blazor
+3. Git / TFS
+4. VBA
 
 ------
+
+### Details
+
+* [CV (English)](https://mither.blob.core.windows.net/img/CV_Mitchell_EN.pdf?sp=r&st=2020-08-30T10:36:57Z&se=2021-08-30T18:36:57Z&spr=https&sv=2019-12-12&sr=b&sig=6Qzdv9lro8lv%2FH9OEt3YqYhiColP%2BSY9t9LGq23twus%3D)
+* [CV (Spanish)](https://mither.blob.core.windows.net/img/CV_Mitchell_ES.pdf?sp=r&st=2020-08-30T10:37:31Z&se=2021-08-30T18:37:31Z&spr=https&sv=2019-12-12&sr=b&sig=aycHnLa4zhShyAAIyyckzLHtwDtCG1IpwL%2BAgn9jEnA%3D)
+* [mit.broadhurst@gmail.com](mailto:mit.broadhurst@gmail.com)
+* [+44 (0)7706609946](tel:+447706609946)
+* [+34 623006753](tel:+34623006753)
 
 ### Experience
 
@@ -36,7 +31,7 @@ Personal projects include:
 	Migration of existing tools to Azure Cloud VMs.
 	Developed modern solutions and features for large Enterprise Java systems.
 	Collaborated with and guided global team members transitioning to client side architecture.
-	**Technical Environment** .NET, T-SQL, Azure Cloud
+	__Technical Environment__ .NET, T-SQL, Azure Cloud
 
 **Menzies Aviation** *Junior Software Developer* __2018 to 2019__
 	Refactored, analysed and improved existing .NET console application. .NET Core 2.1
@@ -45,39 +40,24 @@ Personal projects include:
 	**Technical Environment** .NET, T-SQL.
 
 **Menzies Aviation** *Workforce Support Manager* __2017 to 2018__
-	Project Manager / Business Analyst role. Managed a team of 3 members to 
-
-<!--
-**Redline Distribution** *Web Application Developer* __2008__
-	Wrote a versatile Java EE based, database-driven, e-commerce system for the real time sale, processing and shipping of products available from external distributors such as Baker-Taylor and DeepDiscount.
-	The system interfaced with external distributors to ensure current inventory, status and price and used AJAX rich components to improve usability, convenience and efficiency.
-	**Technical Environment** JBoss, Seam, MySQL, Hibernate, JSF, RichFaces, EJB.
--->
-
-**CIBC** *Test Analyst* __2007 to 2008__
-	Eliminated manual testing processes with automated QTP scripts to increase productivity and limit repetitive human task based testing.
-	Worked cohesively with other developers and team members to plan, design and implement multi-system automated tests which simulate multiple users and roles.
-	**Technical Environment** VB, Quick Test Professional.
+	Project Manager / Business Analyst role. Managed a team of 3 members to distribute and train a third party software across all
+	airports across the UK and Ireland.
 
 ------
 
-### Projects
+### About me
 
-* **Ethical Barcode**
-	<a href=http://www.ethicalbarcode.com class=not-printed>ethicalbarcode.com</a>
-	Cordova based app(iOS & Android) that leverages a huge amalgamation of public data. Driven by over 30 web spiders, 15 webservices and multiple external databases it provides brand ratings from non-profit organisations by scanning product barcodes.
+Software Developer (Stack: C#, T-SQL and Azure Cloud Solutions). I spend most of my time coding, reviewing code and discussing code.]
 
-* **Halifax Crime Heatmap**
-	<a href=http://www.crimeheatmap.ca class=not-printed>crimeheatmap.ca</a>
-	HTML5 Animated heatmap visualising crimes in the city of Halifax. Built on a customised version Heatmap.js library which enables smooth animation. Won silver in the [Apps4Halifax](http://apps4halifax.ca/) city category.
+My personal projects include:
 
-* **Foxish**
-	<a href=https://chrome.google.com/webstore/detail/jpgagcapnkccceppgljfpoadahaopjdb class=not-printed>chrome.google.com</a>
-	Chrome extension that enables Firefox-style live RSS feeds with over fifteen thousand active users a 4/5 star rating. Featured on [Gizmodo](http://gizmodo.com/5609633/10-add+ons-you-have-to-know-about-for-google-chrome) & [LifeHacker](http://lifehacker.com/5603602/foxish-live-rss-adds-live-bookmarks-to-google-chrome).
+* Building with a [Raspberry Pi 4B](https://www.raspberrypi.org/) and a [RAK2245 Rpi HAT](https://store.rakwireless.com/products/rak2245-pi-hat) a LoRaWAN hotspot for IoT solutions.
+* [The Weasley Clock](https://harrypotter.fandom.com/wiki/Weasley_Clock) as a home device.
+* Studying towards Azure Microsoft Certifications.
 
 ------
 
 ### Education
 
-**Bachelor of Technology (Software Development)** __2003 to 2007__
-	Seneca College of Applied Arts and Technology (Seneca@York), Toronto, Ontario
+**Bachelor of Engineering in Telecommunications specialised in sound and image (missing two subjects)** __2009 to 2014__
+	University of Alicante, Alicante, Spain

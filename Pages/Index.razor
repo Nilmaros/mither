@@ -2,15 +2,15 @@
 @inherits Shared.MarkdownEditorBase
 
 <img alt="avatar" width="100" height="100" src="https://mither.blob.core.windows.net/img/avatar.png?sp=r&st=2020-08-29T15:23:33Z&se=2021-08-29T23:23:33Z&spr=https&sv=2019-12-12&sr=b&sig=YYkMLXK77B7c9KxARJ8XG1R4zZkXdqDMq9IiYd482qw%3D" />
-<br><br><br><br>
+<br><br>
 <div>
     @((MarkupString) Preview)
 </div>
 
 
-<Dialog Title="Blazor">
+@* <Dialog Title="Blazor">
     Do you want to <i>learn more</i> about Blazor?
-</Dialog>
+</Dialog> *@
 
 @code {
     protected override void OnInitialized()
@@ -19,4 +19,4 @@
     }
 }
 
-<SurveyPrompt Title="How is Blazor working for you?" />
+@* <SurveyPrompt Title="How is Blazor working for you?" /> *@
