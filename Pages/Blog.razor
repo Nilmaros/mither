@@ -1,0 +1,32 @@
+﻿@using System.IO
+@page "/blog"
+@inherits Shared.MarkdownEditorBase
+
+<div>
+    Blog Entries:
+</div>
+@foreach(string entry in ListOfBlogEntries)
+{
+    <a @onclick="@(e => LoadContent(entry))">@Path.GetFileNameWithoutExtension(entry)</a>
+}
+<div>
+    @((MarkupString) Preview)
+</div>
+
+@code {
+    List<string> ListOfBlogEntries = new List<string>();
+    protected override void OnInitialized()
+    {
+        ListOfBlogEntries = GetListOfBlogEntries();
+    }
+
+    private List<string> GetListOfBlogEntries()
+    {
+        return Directory.GetFiles("wwwroot/MD/").ToList();
+    }
+
+    private void LoadContent(string entry)
+    {
+        Body = System.IO.File.ReadAllText($"{entry}");
+    }
+}
